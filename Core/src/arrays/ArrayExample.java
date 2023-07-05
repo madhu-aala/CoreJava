@@ -3,7 +3,7 @@ package arrays;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class Arr1
+public class ArrayExample
 {
 	@SuppressWarnings("unused")
 	public static void main(String[] args)

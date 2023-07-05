@@ -9,7 +9,7 @@ public class ArrayList1
 	void getArrayList()
 	{
 		System.out.println("Implementing ArrayList");
-		ArrayList al=new ArrayList();
+		ArrayList al = new ArrayList();
 		al.add(10);
 		al.add(null);
 		al.add(10);
@@ -20,8 +20,8 @@ public class ArrayList1
 		System.out.println(al);
 		System.out.println("Size of ArrayList : "+al.size());
 		System.out.println("Data present at 3rd index is "+al.get(3));
-		/*al.remove(1);
-		System.out.println(al);*/
+		al.remove(6); //removes 6th index element
+		System.out.println(al);
 
 		System.out.println();
 

@@ -1,10 +1,10 @@
 package this_keyword;
 
-class Program
+public class This5
 {
 	String name;
 	String names;
-	Program()
+	This5()
 	{
 		this.name="EJB";
 		this.names="POJO";
@@ -18,7 +18,7 @@ class Program
 	}
 	public static void main(String[] args)
 	{
-		Program p=new Program();
+		This5 p=new This5();
 		p.swap(p.name, p.names);
 		System.out.print(p.name+" "+p.names);
 	}
