@@ -1,4 +1,4 @@
-//It is used as a constructor call
+//'this' keyword is used as a constructor call
 package this_keyword;
 
 public class This4

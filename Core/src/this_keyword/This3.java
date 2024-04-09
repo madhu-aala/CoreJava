@@ -1,4 +1,4 @@
-//It is used to return the instance of a class
+//'this' keyword is used to return the instance of a class
 package this_keyword;
 
 public class This3

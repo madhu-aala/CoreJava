@@ -1,4 +1,4 @@
-package stat1c;
+package staticKeyword;
 
 public class StaticExample
 { 

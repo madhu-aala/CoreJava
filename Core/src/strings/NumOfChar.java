@@ -1,10 +1,13 @@
 package strings;
 
+import java.util.Scanner;
+
 public class NumOfChar
 {
 	public static void main(String[] args)
 	{
-		String s = "java is awesome";
+		Scanner input = new Scanner(System.in);
+		String s = input.nextLine();
 		int count = 0;
 		for(int i=0; i<s.length(); i++)
 		{
@@ -14,5 +17,6 @@ public class NumOfChar
 			}
 		}
 		System.out.println(count);
+		input.close();
 	}
 }

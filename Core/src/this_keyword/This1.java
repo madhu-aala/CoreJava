@@ -1,4 +1,4 @@
-//It is used to resolve the ambiguity between the instance variables and local variables.
+//'this' keyword is used to resolve the ambiguity between the instance variables and local variables.
 package this_keyword;
 
 public class This1

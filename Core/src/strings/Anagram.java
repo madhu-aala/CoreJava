@@ -1,30 +1,34 @@
 package strings;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
-public class Anagram
-{
-	public static void main(String[] args)
-	{
-		String s1="Listen";
-		String s2="Silent";
+public class Anagram {
 
-		s1=s1.toLowerCase();
-		s2=s2.toLowerCase();
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
 
-		char c1[]=s1.toCharArray(); //{'l','i','s','t','e','n'}
-		char c2[]=s2.toCharArray(); //{'s','i','l','e','n','t'}
+        System.out.println("Enter the first string:");
+        String s1 = input.nextLine();
 
-		Arrays.sort(c1);		   //{'e','i','l','n','s','t'}
-		Arrays.sort(c2);		   //{'e','i','l','n','s','t'}
+        System.out.println("Enter the second string:");
+        String s2 = input.nextLine();
 
-		if(Arrays.equals(c1,c2)==true)
-		{
-			System.out.println("Given Strings are anagram");
-		}
-		else
-		{
-			System.out.println("Given Strings are not anagram");
-		}
-	}	
+        s1 = s1.toLowerCase();
+        s2 = s2.toLowerCase();
+
+        char c1[] = s1.toCharArray();
+        char c2[] = s2.toCharArray();
+
+        Arrays.sort(c1);
+        Arrays.sort(c2);
+
+        if (Arrays.equals(c1, c2)) {
+            System.out.println("The given strings are anagrams.");
+        } else {
+            System.out.println("The given strings are not anagrams.");
+        }
+
+        input.close();
+    }
 }

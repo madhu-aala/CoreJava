@@ -1,4 +1,4 @@
-//It is used to call present class methods
+//'this' keyword is used to call present class methods
 package this_keyword;
 
 public class This2
