@@ -1,5 +1,6 @@
 package collections;
 
+import java.util.Iterator;
 import java.util.LinkedList;
 
 public class LinkedListExample
@@ -37,5 +38,11 @@ public class LinkedListExample
 		for(int i=list1.size()-1; i>=0; i--) {
 			System.out.print(list1.get(i)+" ");
 		}
+		
+		System.out.println("Iterating in reverse order through Iterator");
+		Iterator i = list1.descendingIterator();  
+        while(i.hasNext()) {  
+            System.out.println(i.next());  
+        }  
 	}
 }
