@@ -3,11 +3,10 @@ package collections;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-public class ArrayList1
+public class ArrayListExample
 {
 	@SuppressWarnings({ "unchecked", "rawtypes" })
-	void getArrayList()
-	{
+	void getArrayList() {
 		System.out.println("Implementing ArrayList");
 		ArrayList al = new ArrayList();
 		al.add(10);
@@ -26,22 +25,19 @@ public class ArrayList1
 		System.out.println();
 
 		System.out.println("Retriving data using for loop");
-		for(int i=0; i<al.size(); i++)
-		{
+		for(int i=0; i<al.size(); i++) {
 			System.out.print(al.get(i)+" ");
 		}
 		
 		System.out.println(); System.out.println();
 
 		System.out.println("Retriving data in reverse order by using for loop");
-		for(int i=al.size()-1; i>0; i--)
-		{
+		for(int i=al.size()-1; i>0; i--) {
 			System.out.print(al.get(i)+ " ");
 		}
 
 		System.out.println("Retriving data using for each loop");
-		for(Object o:al)
-		{
+		for(Object o:al) {
 			System.out.println(o);
 		}
 
@@ -49,8 +45,7 @@ public class ArrayList1
 		System.out.println();
 
 		System.out.println("Retriving data using forEach loop and lambda expression");
-		al.forEach(obj ->
-		{
+		al.forEach(obj -> {
 			System.out.print(obj+" ");
 		});
 
@@ -59,8 +54,7 @@ public class ArrayList1
 
 		System.out.println("Retriving data using Iterator Interface");
 		Iterator i = al.iterator();
-		while(i.hasNext())
-		{
+		while(i.hasNext()) {
 			System.out.print(i.next()+ " ");
 		}
 
@@ -77,8 +71,7 @@ public class ArrayList1
 		System.out.println("contains(): "+al.contains(al.size()-1));
 		System.out.println(al);
 	}
-	public static void main(String[] args)
-	{
-		new ArrayList1().getArrayList();
+	public static void main(String[] args) {
+		new ArrayListExample().getArrayList();
 	}
 }
