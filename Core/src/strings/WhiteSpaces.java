@@ -4,11 +4,9 @@ package strings;
 
 public class WhiteSpaces
 {
-	public static void main(String[] args) 
-	{
+	public static void main(String[] args) {
 		String str = "J  A   V    A ";
-		for(int i=0; i<str.length(); i++)
-		{
+		for(int i=0; i<str.length(); i++) {
 			str=str.replaceAll(" ","");
 		}
 		System.out.println(str);

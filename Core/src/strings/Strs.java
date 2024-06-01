@@ -2,8 +2,7 @@ package strings;
 
 public class Strs
 {
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		StringBuffer sb1 = new StringBuffer("abc");
 		StringBuffer sb2 = sb1;
 		sb1.append("d");
