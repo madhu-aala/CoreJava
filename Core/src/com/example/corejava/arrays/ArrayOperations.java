@@ -1,4 +1,4 @@
-package arrays;
+package com.example.corejava.arrays;
 
 import java.util.ArrayList;
 import java.util.Arrays;
