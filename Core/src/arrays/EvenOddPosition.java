@@ -1,4 +1,4 @@
-package com.example.corejava.arrays;
+package arrays;
 
 public class EvenOddPosition
 {
