@@ -1,6 +1,6 @@
 package patterns;
 
-public class Pattern3
+public class DescendingNumberPattern
 {
 	public static void main(String args[])  
 	{  
